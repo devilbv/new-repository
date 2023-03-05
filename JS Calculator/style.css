@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #e3f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator { 
+  width: 380px;
+  background-color: #002f4b;
+  padding: 20px;
+  border-radius: 10px;
+   
+}
+.calculator .btn, .calculator .btn-clear, .calculator .btn-equals, .calculator .btn-delete {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1), 5px 5px 15px rgba(255,255, 255, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  object-fit: contain;
+  margin: 20px 0;
+  
+}
+.display .result {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+  width: 100%;
+  max-width: 350px;
+}
+#equals {
+  width: 145px;
+}
+.calculator .reset, .calculator .erase, .calculator .point, .calculator .divide{
+  color: #33cfff;
+
+}
+
+
+
+
+
+
+
